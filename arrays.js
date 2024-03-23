@@ -2,7 +2,7 @@ let arr1 = [3,7,34,90,12]
 console.log('arr1', arr1.slice(-1));
 
 let arr2 = [true, "green", "where",12,56]
-console.log('arr2', arr2.length - 1);
+console.log(arr2.slice (-1));
 
 
 
@@ -30,8 +30,8 @@ let arr = ["boy", "man", "girl",            "school", "girl", "woman"];
 
 //search for the following word in the array."food"If the word is present, return it else return "the search word was not found"
 
-let items = ["shelter", "clothing", "food", "education"];
-let i = items.includes("food");
+let arr5= ["shelter", "clothing", "food", "education"];
+let i = arr5.includes("food");
 if(i==true){
     console.log("food")
 }
@@ -42,5 +42,5 @@ console.log("the search word was not found")
 //sort the following string:
 
 let word = "renniw";
-
-console.log('split', word.split());
+let sortedString = word.sort()
+console.log(sortedString());
