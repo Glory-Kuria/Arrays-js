@@ -42,5 +42,5 @@ console.log("the search word was not found")
 //sort the following string:
 
 let word = "renniw";
-let sortedString = word.sort()
-console.log(sortedString());
+let sortedString = word.split("").reverse("").join("")
+console.log(sortedString);
